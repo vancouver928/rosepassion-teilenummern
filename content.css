@@ -1,0 +1,32 @@
+.rp-partno {
+  display: block;
+  margin-top: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #111;
+  text-decoration: none;
+}
+.rp-partno.rp-small { margin: 2px 0 4px; }
+.rp-partno .rp-main {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: #ff5a00;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.rp-partno .rp-main:hover { background: #000; }
+.rp-partno .rp-old {
+  color: #777;
+  margin-left: 6px;
+  font-weight: 400;
+}
+.rp-partno .rp-copied {
+  margin-left: 6px;
+  color: #ff5a00;
+  font-weight: 700;
+}

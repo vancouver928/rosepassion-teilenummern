@@ -23,10 +23,10 @@ Die Erweiterung sammelt keine Daten, sendet nichts an Server und läuft ausschli
 
 ## Rechtliches
 
-Privates Hobbyprojekt, nicht verbunden mit Rose Passion oder Porsche. Lizenz: MIT.
+Privates Hobbyprojekt, nicht verbunden mit Rose Passion oder Porsche. Alle Rechte vorbehalten.
 
 ## English
 
 Chrome extension that shows the Porsche part numbers directly in the parts list on rosepassion.com. Rose Passion only shows its own article number (P12345); the Porsche number is hidden in each part's link address. This extension reads it and displays it in the Porsche catalogue format (for example 928 110 198 25), together with the superseded previous numbers. Click copies the number, shift-click copies it without spaces.
 
-No data is collected or sent anywhere. See [privacy-policy.md](privacy-policy.md). Not affiliated with Rose Passion or Porsche. MIT license.
+No data is collected or sent anywhere. See [privacy-policy.md](privacy-policy.md). Not affiliated with Rose Passion or Porsche. All rights reserved.

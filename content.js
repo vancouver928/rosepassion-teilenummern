@@ -2,6 +2,9 @@
 // Liest die Porsche-Teilenummern aus den Link-Adressen und blendet sie neben dem Teilenamen ein.
 
 (function () {
+  // Icon in der Chrome-Leiste nur auf dieser Seite orange schalten
+  try { chrome.runtime.sendMessage({ type: "rp-active" }); } catch (e) {}
+
   const DONE = "data-rp-partno";
   const LABELS = {
     de: { old: "ersetzt", copied: "kopiert", hint: "Klick: kopieren mit Leerzeichen · Shift-Klick: ohne Leerzeichen" },
